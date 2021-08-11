@@ -12,14 +12,21 @@ function Home() {
                     alt=""
                 />
                 <div className="home__row">
+                    <Product
+                        title="The lean startup"
+                        price={29.99}
+                        image="the_lean_startup.png"
+                        rating={5}
+                    />
+                    <Product/>
+                </div>
+                <div className="home__row">
+                    <Product/>
                     <Product/>
                     <Product/>
                 </div>
                 <div className="home__row">
-
-                </div>
-                <div className="home__row">
-
+                    <Product/>
                 </div>
             </div>
 

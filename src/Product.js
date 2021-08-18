@@ -10,6 +10,7 @@ function Product({title, price, image, rating}) {
                     <small>$</small>
                     <strong>{price}
                     </strong>
+					<p>test</p>
                 </p>
                 <div className="product_rating">
                     {Array(rating)
